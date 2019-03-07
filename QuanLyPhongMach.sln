@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyPhongMach", "QuanLyPhongMach\QuanLyPhongMach.csproj", "{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "QLyPhongMachInstaller", "QLyPhongMachInstaller\QLyPhongMachInstaller.aiproj", "{837E1C7D-E6B5-423C-A079-F4325473E30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.All|Any CPU.Build.0 = Release|Any CPU
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81E1255-5C45-42D6-B658-B7F3CA7DDAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.All|Any CPU.ActiveCfg = DefaultBuild
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.All|Any CPU.Build.0 = DefaultBuild
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.Debug|Any CPU.Build.0 = DefaultBuild
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{837E1C7D-E6B5-423C-A079-F4325473E30C}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DD8D976-935C-4753-842E-E666E277E42E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,248 @@
+﻿<UserControl x:Class="QuanLyPhongMach.GiaoDienAdmin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyPhongMach"
+             mc:Ignorable="d" 
+             d:DesignHeight="770" d:DesignWidth="1050"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="hinhAdmin" ></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignTitleTextBlock}">
+ Administrator
+        </TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="10,0,0,0" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <ComboBox Grid.Row="0"
+  materialDesign:HintAssist.Hint="Mã người dùng"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                </ComboBox>
+                <TextBox Grid.Row="1" FontSize="20" IsEnabled="False"
+  materialDesign:HintAssist.Hint="Tên người dùng"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <ComboBox Grid.Row="2"
+  materialDesign:HintAssist.Hint="Quyền"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                </ComboBox>
+                <ComboBox Grid.Row="3"
+  materialDesign:HintAssist.Hint="Chức vụ"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="9*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                    <TextBox Name="tbTimThuoc" Margin="0,0,10,0" Opacity="0.7" Background="White" VerticalAlignment="Center" Width="200" ></TextBox>
+                    <Button BorderBrush="{x:Null}" Background="LightGray" Name="btTimThuoc" Margin="0,0,10,0" VerticalAlignment="Center" >
+                        <Image HorizontalAlignment="Center" Height="24" Width="18" Source="image/magnify.png">
+                            <Image.Effect>
+                                <DropShadowEffect Direction="25" Color="#FFB6C2CB" ShadowDepth="2" BlurRadius="1" />
+                            </Image.Effect>
+                        </Image>
+                    </Button>
+                </StackPanel>
+
+                <DataGrid Grid.Row="1" Opacity="0.84" HorizontalAlignment="Stretch" Name="dtNguoiDung" 
+                Margin="10,5,5,5"
+                                          BorderBrush="Black"
+                                          BorderThickness="1"
+                 ItemsSource="{Binding TNhanViens}"               
+                CanUserSortColumns="True"
+                CanUserAddRows="False"
+                AutoGenerateColumns="False"
+                materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+                materialDesign:DataGridAssist.ColumnHeaderPadding="8" >
+
+                    <DataGrid.RowStyle>
+                        <Style TargetType="{x:Type DataGridRow}">
+                            <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </Style>
+                    </DataGrid.RowStyle>
+
+                    <DataGrid.Columns>
+
+                        <materialDesign:MaterialDataGridTextColumn >
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style
+          TargetType="{x:Type DataGridColumnHeader}"
+          BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}">
+                                    <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                            <DataGridTextColumn.ElementStyle>
+                                <Style
+          TargetType="{x:Type TextBlock}">
+                                    <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </materialDesign:MaterialDataGridTextColumn>
+
+
+
+                        <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding MaNV}" Width="150"
+      Header="Mã người dùng"
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                        <materialDesign:MaterialDataGridTextColumn 
+                                            Header="Tên " Width="100"
+                                            Binding="{Binding HoTenNV}"  
+                                            EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                        <materialDesign:MaterialDataGridTextColumn 
+      Header="Quyền" Width="100"
+      Binding="{Binding Quyen}"  
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}"/>
+
+
+
+                        <materialDesign:MaterialDataGridTextColumn 
+      Header="Chức vụ" Width="150"
+      Binding="{Binding ChucVu}"  
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                        
+                    </DataGrid.Columns>
+
+                </DataGrid>
+            </Grid>
+        </Grid>
+
+        <Grid  Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="7*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Margin="0,0,50,0" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal" Grid.Row="0">
+
+                
+                <Button Margin="10,0,0,0" Name="btXoaNguoiDung"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                ToolTip="Xóa thuốc">
+                    <materialDesign:PackIcon
+                                Kind="Trash"
+                                Height="24"
+                                Width="24" />
+                </Button>
+                <Button Margin="10,0,0,0" Name="btSuaNguoiDung"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                ToolTip="Sửa thuốc"  >
+                    <materialDesign:PackIcon
+                                Kind="Pencil"
+                                Height="24"
+                                Width="24" />
+                </Button>
+            </StackPanel>
+            <Grid Margin="10,0,0,0" HorizontalAlignment="Left" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbSoLuongBenhNhan"
+  materialDesign:HintAssist.Hint="Số lượng bệnh nhân" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btSoLuongBenhNhan" Click="BtSoLuongBenhNhan_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbSoBenh"
+  materialDesign:HintAssist.Hint="Số bệnh" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btSoBenh" Click="BtSoBenh_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbSoLoaiThuoc"
+  materialDesign:HintAssist.Hint="Số loại thuốc" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btSoLoaiThuoc" Click="BtSoLoaiThuoc_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbTienKham"
+  materialDesign:HintAssist.Hint="Tiền khám" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btTienKham" Click="BtTienKham_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbSoKhoa"
+  materialDesign:HintAssist.Hint="Số khoa" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btSoKhoa" Click="BtSoKhoa_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="5" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Margin="0,0,10,0" Name="tbSoPhongMoiKhoa"
+  materialDesign:HintAssist.Hint="Số phòng mỗi khoa" Width="150"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Name="btSoPhongMoiKhoa" Click="BtSoPhongMoiKhoa_Click">
+                        <materialDesign:PackIcon
+    Kind="Settings" 
+    Height="24"
+    Width="24" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,273 @@
+﻿<UserControl x:Class="QuanLyPhongMach.GiaoDienThuoc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyPhongMach"
+             mc:Ignorable="d" 
+             d:DesignHeight="770" d:DesignWidth="1050"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="hinhGiaoDienThuoc" ></ImageBrush>
+        </Grid.Background>
+        <materialDesign:Card HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20" Opacity="0.84" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.08*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1.2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignTitleTextBlock}">
+ Thông Tin Thuốc
+                </TextBlock>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="2.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0"
+                        Style="{StaticResource MaterialDesignDisplay2TextBlock}">
+                        Thống kê thuốc
+                    </TextBlock>
+                    <StackPanel Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBox Name="tbTimThongKe" Margin="0,0,10,0" Opacity="0.7" Background="White" VerticalAlignment="Center" Width="200" ></TextBox>
+                        <Button BorderBrush="{x:Null}" Background="LightGray" Name="btTimThongKe" Margin="0,0,10,0" VerticalAlignment="Center" >
+                            <Image HorizontalAlignment="Center" Height="24" Width="18" Source="image/magnify.png">
+                                <Image.Effect>
+                                    <DropShadowEffect Direction="25" Color="#FFB6C2CB" ShadowDepth="2" BlurRadius="1" />
+                                </Image.Effect>
+                            </Image>
+                        </Button>
+                    </StackPanel>
+                    <Grid Grid.Row="2">
+                        <DataGrid BorderThickness="1" BorderBrush="Black" Opacity="0.84" HorizontalAlignment="Stretch" Name="dtThongKeThuoc"
+                Margin="10,0,10,0"
+                ItemsSource="{Binding TThuocs}"                
+                CanUserSortColumns="True"
+                CanUserAddRows="False"
+                AutoGenerateColumns="False"
+                materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+                materialDesign:DataGridAssist.ColumnHeaderPadding="8" >
+
+                            <DataGrid.RowStyle>
+                                <Style TargetType="{x:Type DataGridRow}">
+                                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                </Style>
+                            </DataGrid.RowStyle>
+
+                            <DataGrid.Columns>
+
+                                <materialDesign:MaterialDataGridTextColumn >
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style
+          TargetType="{x:Type DataGridColumnHeader}"
+          BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}">
+                                            <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style
+          TargetType="{x:Type TextBlock}">
+                                            <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </materialDesign:MaterialDataGridTextColumn>
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding TenThuoc}" Width="200"
+      Header="Tên thuốc"
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding DonVi}" Width="200"
+      Header="Đơn vị"
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding SoLuongTon}" Width="200"
+      Header="Số lượng tồn"      
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+   
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="2.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0"
+                        Style="{StaticResource MaterialDesignDisplay2TextBlock}">
+                        Danh sách thuốc
+                    </TextBlock>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="0.6*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Margin="10,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"  Orientation="Horizontal">
+                            <TextBox Width="150" Name="tbTenThuoc"
+                                materialDesign:HintAssist.Hint="Tên thuốc"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                            <ComboBox Width="150" Name="cbCachDung"
+  materialDesign:HintAssist.Hint="Cách dùng" Margin="10,0,0,0"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                                <ComboBoxItem>
+                                    Sáng
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Trưa
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Chiều
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Tối
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Width="100" Margin="10,0,0,0" Name="cbDonVi"
+                                materialDesign:HintAssist.Hint="Đơn vị"
+                                Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                                <ComboBoxItem>
+                                    Viên
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Chai
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <TextBox Width="100" Margin="10,0,0,0" Name="tbGia"
+                                materialDesign:HintAssist.Hint="Giá"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="1">
+
+                            <Button Name="btThemThuoc"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                ToolTip="Thêm thuốc" Click="BtThemThuoc_Click">
+                                <materialDesign:PackIcon
+                                Kind="Plus"
+                                Height="24"
+                                Width="24" />
+                            </Button>
+                            <Button Margin="10,0,0,0" Name="btXoaThuoc"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                ToolTip="Xóa thuốc" Click="BtXoaThuoc_Click">
+                                <materialDesign:PackIcon
+                                Kind="Trash"
+                                Height="24"
+                                Width="24" />
+                            </Button>
+                            <Button Margin="10,0,0,0" Name="btSuaThuoc"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                ToolTip="Sửa thuốc" Click="BtSuaThuoc_Click" >
+                                <materialDesign:PackIcon
+                                Kind="Pencil"
+                                Height="24"
+                                Width="24" />
+                            </Button>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                            <TextBox Name="tbTimThuoc" Margin="0,0,10,0" Opacity="0.7" Background="White" VerticalAlignment="Center" Width="200"></TextBox>
+                            <Button BorderBrush="{x:Null}" Background="LightGray" Name="btTimThuoc" Margin="0,0,10,0" VerticalAlignment="Center" >
+                                <Image HorizontalAlignment="Center" Height="24" Width="18" Source="image/magnify.png">
+                                    <Image.Effect>
+                                        <DropShadowEffect Direction="25" Color="#FFB6C2CB" ShadowDepth="2" BlurRadius="1" />
+                                    </Image.Effect>
+                                </Image>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <DataGrid BorderThickness="1" BorderBrush="Black" Opacity="0.84" HorizontalAlignment="Stretch" Name="dtDanhSachThuoc"
+                Margin="10,0,10,0"
+                ItemsSource="{Binding TThuocs}"                
+                CanUserSortColumns="True"
+                CanUserAddRows="False"
+                AutoGenerateColumns="False"
+                materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+                materialDesign:DataGridAssist.ColumnHeaderPadding="8" >
+
+                            <DataGrid.RowStyle>
+                                <Style TargetType="{x:Type DataGridRow}">
+                                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                </Style>
+                            </DataGrid.RowStyle>
+
+                            <DataGrid.Columns>
+
+                                <materialDesign:MaterialDataGridTextColumn >
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style
+          TargetType="{x:Type DataGridColumnHeader}"
+          BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}">
+                                            <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style
+          TargetType="{x:Type TextBlock}">
+                                            <Setter
+            Property="HorizontalAlignment"
+            Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </materialDesign:MaterialDataGridTextColumn>
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding TenThuoc}" Width="150"
+      Header="Tên thuốc"
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding CachDung}" Width="150"
+      Header="Cách dùng"
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding DonVi}" Width="150"
+      Header="Đơn vị"      
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                                <materialDesign:MaterialDataGridTextColumn 
+      Header="Giá" Width="150"
+      Binding="{Binding Gia}"  
+      EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+
+                    </Grid>
+                </Grid>
+
+            </Grid>
+        </materialDesign:Card>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,142 @@
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.exe.config
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.exe
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.pdb
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignColors.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.xml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignColors.pdb
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csprojAssemblyReference.cache
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\CuaSoChinh.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\DangKyTaiKhoan.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienAdmin.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienDoanhThu.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhanCong.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhieuKham.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienThuoc.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\KeThuoc.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\MainWindow.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienNhanVien.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuenMatKhau.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaNhanVien.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhanCong.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhieuKham.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaThuoc.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\App.g.cs
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach_MarkupCompile.cache
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach_MarkupCompile.lref
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\App.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\CuaSoChinh.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\DangKyTaiKhoan.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienAdmin.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienDoanhThu.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhanCong.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhieuKham.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienThuoc.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\KeThuoc.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\MainWindow.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienNhanVien.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuenMatKhau.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaNhanVien.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhanCong.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhieuKham.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaThuoc.baml
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.g.resources
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.Properties.Resources.resources
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.GenerateResource.cache
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.CoreCompileInputs.cache
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.CopyComplete
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.exe
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.pdb
+C:\Users\thuyl\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.Migrations.createdb.resources
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.exe.config
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.exe
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\QuanLyPhongMach.pdb
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignColors.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.xml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignColors.pdb
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csprojAssemblyReference.cache
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\CuaSoChinh.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\DangKyTaiKhoan.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienAdmin.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienDoanhThu.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhanCong.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhieuKham.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienThuoc.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\KeThuoc.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\MainWindow.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienNhanVien.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuenMatKhau.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaNhanVien.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhanCong.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhieuKham.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaThuoc.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\App.g.cs
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach_MarkupCompile.cache
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach_MarkupCompile.lref
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\App.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\CuaSoChinh.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\DangKyTaiKhoan.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienAdmin.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienDoanhThu.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhanCong.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienPhieuKham.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienThuoc.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\KeThuoc.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\MainWindow.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\GiaoDienNhanVien.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuenMatKhau.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaNhanVien.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhanCong.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaPhieuKham.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\SuaThuoc.baml
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.g.resources
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.Properties.Resources.resources
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.GenerateResource.cache
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.CoreCompileInputs.cache
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.csproj.CopyComplete
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.exe
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.pdb
+C:\Users\Loc Do\OneDrive\Education\Nam III\Cong nghe phan mem\QuanLyPhongMach\QuanLyPhongMach\obj\Release\QuanLyPhongMach.Migrations.createdb.resources

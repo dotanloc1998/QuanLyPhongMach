@@ -1,0 +1,148 @@
+﻿<Window x:Class="QuanLyPhongMach.SuaNhanVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyPhongMach"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen" Title="SuaNhanVien" Height="770" Width="1050"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" ResizeMode="NoResize" WindowStyle="None"
+        TextOptions.TextRenderingMode="Auto" BorderThickness="5" BorderBrush="Black"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="hinhSuaNhanVien" ></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="12*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <materialDesign:ColorZone MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Name="TitleBar" Grid.Row="0"
+                                  Mode="Inverted" Height="50" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center" Margin="30,0,0,0"   Grid.Column="0"
+                           Style="{StaticResource MaterialDesignHeadlineTextBlock}">
+                    Sửa nhân viên
+                </TextBlock>
+                <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30"
+                            Orientation="Horizontal">
+
+                    <Button Name="btThuNho" materialDesign:RippleAssist.IsDisabled="True" BorderBrush="Black" Background="Black" ToolTip="Thu nhỏ" Margin="0,0,5,0" HorizontalAlignment="Right" Click="btThuNho_Click" MouseEnter="btThuNho_MouseEnter" MouseLeave="btThuNho_MouseLeave">
+                        <materialDesign:PackIcon Kind="WindowMinimize"></materialDesign:PackIcon>
+                    </Button>
+                    <Button Name="btDong" materialDesign:RippleAssist.IsDisabled="True" BorderBrush="Black" Background="Black" ToolTip="Đóng" Margin="0,0,5,0" HorizontalAlignment="Right" Click="btDong_Click" MouseEnter="btDong_MouseEnter" MouseLeave="btDong_MouseLeave">
+                        <materialDesign:PackIcon Kind="WindowClose"></materialDesign:PackIcon>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </materialDesign:ColorZone>
+
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBox Grid.Column="0" Name="tbHoTen"
+  materialDesign:HintAssist.Hint="Họ và tên" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <ComboBox Name="cbHocVi" Width="150" Margin="0,0,10,0" Grid.Column="0"
+  materialDesign:HintAssist.Hint="Học vị" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                    </ComboBox>
+                    <ComboBox Name="cbChucVu" IsEnabled="False" Width="150" Grid.Column="1"
+  materialDesign:HintAssist.Hint="Chức vụ" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                        <ComboBoxItem>
+                            Bác sĩ
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            Y tá
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <DatePicker Name="dpNgaySinh" Margin="0,0,10,0"
+  Width="150" Height="40"
+  materialDesign:HintAssist.Hint="Ngày sinh"
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                    <RadioButton IsChecked="True" Name="rbnNam"  VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignRadioButton}">
+                        Nam
+                    </RadioButton>
+                    <RadioButton Margin="10,0,0,0" Name="rbnNu" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignRadioButton}">
+                        Nữ
+                    </RadioButton>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <TextBox Grid.Column="0" Name="tbDiaChi"
+  materialDesign:HintAssist.Hint="Địa chỉ" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </Grid>
+
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Margin="0,0,10,0"  Name="tbQueQuan"
+  materialDesign:HintAssist.Hint="Quê quán" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox Grid.Column="1" Margin="0,0,10,0"  Name="tbSDT"
+  materialDesign:HintAssist.Hint="Số điện thoại" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox Grid.Column="2"  Name="tbCMND"
+  materialDesign:HintAssist.Hint="CMND" VerticalAlignment="Center"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </Grid> 
+
+            <Grid Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Name="btDongY"
+                    Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                    Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    ToolTip="Đồng ý sửa nhân viên" Click="BtDongY_Click">
+                    Đồng ý
+                </Button>
+
+                <Button Name="btHuy" Grid.Column="1" BorderBrush="DarkRed" Background="DarkRed" Foreground="White"
+                        Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                        Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center"
+                        ToolTip="Hủy sửa nhân viên" Click="BtHuy_Click" >
+                    Hủy bỏ
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
